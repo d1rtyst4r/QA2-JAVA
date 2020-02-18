@@ -1,4 +1,4 @@
-package lv.javaguru.JavaGuruQA2.Lesson4.ClassWork.task3;
+package lv.javaguru.JavaGuruQA2.Lesson4.task3;
 
 import java.math.BigDecimal;
 
