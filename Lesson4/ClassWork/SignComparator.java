@@ -1,4 +1,4 @@
-package lv.javaguru.JavaGuruQA2.lesson4.classWork;
+package lv.javaguru.JavaGuruQA2.Lesson4.ClassWork;
 
 public class SignComparator {
     public String compare(int number){

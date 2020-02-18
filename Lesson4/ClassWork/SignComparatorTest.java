@@ -1,4 +1,4 @@
-package lv.javaguru.JavaGuruQA2.lesson4.classWork;
+package lv.javaguru.JavaGuruQA2.Lesson4.ClassWork;
 
 class SignComparatorTest {
 
