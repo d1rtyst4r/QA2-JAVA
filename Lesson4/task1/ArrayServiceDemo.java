@@ -1,4 +1,4 @@
-package lv.javaguru.lesson3.lv.javaguru.homework2.task1;
+package lv.javaguru.JavaGuruQA2.Lesson4.task1;
 
 public class ArrayServiceDemo {
 

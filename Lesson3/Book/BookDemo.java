@@ -1,3 +1,5 @@
+package lv.javaguru.JavaGuruQA2.Lesson3.Book;
+
 public class BookDemo {
 
     public static void main(String[] args){

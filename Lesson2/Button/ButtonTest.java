@@ -1,4 +1,4 @@
-package lv.javaguru.Lesson2;
+package lv.javaguru.JavaGuruQA2.Lesson2.Button;
 
 public class ButtonTest {
     public static void main(String[] args){

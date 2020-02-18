@@ -1,3 +1,5 @@
+package lv.javaguru.JavaGuruQA2.Lesson3.Book;
+
 import java.util.Scanner;
 public class ReadLineDemo {
     public static void main(String[] args) {

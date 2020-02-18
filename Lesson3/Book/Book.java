@@ -1,3 +1,5 @@
+package lv.javaguru.JavaGuruQA2.Lesson3.Book;
+
 public class Book {
 
     public String title;

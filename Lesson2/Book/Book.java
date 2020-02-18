@@ -1,4 +1,4 @@
-package lv.javaguru.Lesson2;
+package lv.javaguru.JavaGuruQA2.Lesson2.Book;
 
 public class Book {
     private String title;
@@ -51,8 +51,8 @@ public class Book {
     }
 
     public void printInformation(){
-        System.out.println("Book title is: " + this.title);
-        System.out.println("Book publisher is " + this.publisher);
+        System.out.println("lv.javaguru.JavaGuruQA2.Lesson3.Book.Book title is: " + this.title);
+        System.out.println("lv.javaguru.JavaGuruQA2.Lesson3.Book.Book publisher is " + this.publisher);
         System.out.print("IBN for this book is: " + this.ibn);
         System.out.print("This book has: " + this.pageNUmber + " pages.");
     }

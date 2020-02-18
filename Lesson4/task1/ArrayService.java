@@ -1,12 +1,11 @@
-package lv.javaguru.lesson3.lv.javaguru.homework2.task1;
+package lv.javaguru.JavaGuruQA2.Lesson4.task1;
 
 import java.util.Random;
 
 public class ArrayService {
 
     public int[] create(int size) {
-        int[] createdArray = new int[size];
-        return createdArray;
+        return new int[size];
     }
 
     public void fillRandomly(int[] array) {
@@ -30,16 +29,14 @@ public class ArrayService {
     public int sum(int[] array) {
 
         int summma = 0;
-        for (int n = 0; n < array.length; n++) {
-            summma += array[n];
+        for (int i : array) {
+            summma += i;
         }
         return summma;
     }
 
     public double avg(int[] array) {
 
-        int sum = sum(array);
-        double average = sum / (double) array.length;
-        return average;
+        return sum(array) / (double) array.length;
     }
 }
