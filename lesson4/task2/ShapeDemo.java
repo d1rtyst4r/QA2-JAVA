@@ -1,4 +1,4 @@
-package lv.javaguru.lesson4.task2;
+package lv.javaguru.JavaGuruQA2.lesson4.classWork.task2;
 
 public class ShapeDemo {
     public static void main(String[] args) {
