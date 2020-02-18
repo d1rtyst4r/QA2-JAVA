@@ -5,13 +5,11 @@ import java.util.Random;
 public class ArrayService {
 
     public int[] create(int size) {
-        //to do
         int[] createdArray = new int[size];
         return createdArray;
     }
 
     public void fillRandomly(int[] array) {
-        // TODO
         Random rnd = new Random();
 
         for (int n = 0; n < array.length; n++) {
