@@ -1,4 +1,4 @@
-package lv.javaguru.JavaGuruQA2.Lesson4.ClassWork.task2;
+package lv.javaguru.JavaGuruQA2.Lesson4.task2;
 
 public class AbstractShape implements Shape {
 

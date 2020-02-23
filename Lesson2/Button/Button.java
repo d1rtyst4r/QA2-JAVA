@@ -43,6 +43,6 @@ public class Button {
     }
 
     public void showPositionOnWindow() {
-        System.out.println("Button position is: " + xPositionOnPage + "," + yPositionOnPage + ".");
+        System.out.println("Button position is: " + xPositionOnPage + ", " + yPositionOnPage + ".");
     }
 }

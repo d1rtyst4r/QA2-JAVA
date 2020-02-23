@@ -36,7 +36,7 @@ class SignComparatorTest {
         int testNUmber = -1;
         String expectedResult = "Number is negative";
         if (expectedResult.equals(comparator.compare(testNUmber))) {
-            System.out.println("shouldReturnNumberIsPositiveWhenNumberMinus1: SUCCESS");
+            System.out.println("shouldReturnNumberIsNegativeWhenNumberMinus1: SUCCESS");
         } else {
             System.out.println("shouldReturnNumberIsPositiveWhenNumberMinus1: FAILED");
         }

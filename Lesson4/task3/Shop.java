@@ -1,33 +1,49 @@
 package lv.javaguru.JavaGuruQA2.Lesson4.task3;
 
 import java.math.BigDecimal;
-import java.util.Set;
+import java.util.ArrayList;
+
 
 public class Shop {
-    private Set productList;
+    private ArrayList<Product> productList;
 
-    public Shop(){
-
-    }
-
-    public Shop(Set<Product> products){
-        this.productList = products;
-    }
-
-    public void addProduct() {
+    public Shop() {
 
     }
 
-    public void deleteProduct(){
-
+    public Shop(ArrayList<Product> productList) {
+        this.productList = productList;
     }
 
-    public void findProduct(String product){
-
+    public void addProduct(Product product) {
+        productList.add(product);
     }
 
-    public void findProduct(BigDecimal minPriceRange, BigDecimal maxPriceRange){
+    public void deleteProduct(String productName) {
+        productList.removeIf(product -> product.getProductName().equals(productName));
+    }
 
+    public Product findProductByName(String productName) {
+        Product result = null;
+        for (Product product : this.productList) {
+            if (product.getProductName().equals(productName)) {
+                result = product;
+                break;
+            }
+        }
+        return result;
+    }
+
+
+    public ArrayList<Product> findProduct(BigDecimal minPriceRange, BigDecimal maxPriceRange) {
+        ArrayList<Product> result = null;
+        for (Product product : productList) {
+            if (product.getProductPrice().compareTo(minPriceRange) == 1 &&
+                    product.getProductPrice().compareTo(maxPriceRange) == -1) {
+                result.add(product);
+            }
+        }
+        return result;
     }
 }
 
