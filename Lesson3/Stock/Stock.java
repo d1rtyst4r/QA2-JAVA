@@ -1,4 +1,4 @@
-package lv.javaguru.JavaGuruQA2.Lesson3.Book.Stock;
+package lv.javaguru.JavaGuruQA2.Lesson3.Stock;
 
 class Stock {
 
