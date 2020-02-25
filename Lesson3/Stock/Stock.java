@@ -13,7 +13,7 @@ class Stock {
         minPrice = price;
         maxPrice = price;
     }
-    //test
+
     void printInformation() {
         System.out.println("Company = " + name + ", Current price = " + price + ", Max price = " + maxPrice +
                 ", Min price = " + minPrice);
