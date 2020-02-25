@@ -4,7 +4,7 @@ public class NumberService {
 
     public int rangeSum(int start, int finish) {
         int sum = 0;
-        if (start <= start) {
+        if (start <= finish) {
             for (int i = start; i <= finish; i++) {
                 sum += i;
                 ;
