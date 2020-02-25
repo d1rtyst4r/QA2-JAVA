@@ -5,11 +5,10 @@ import java.util.Random;
 public class ThreeRandomIntegers {
     public static void main(String[] args) {
         Random randomGenerator = new Random();
-        int numberOnFirstDice = randomGenerator.nextInt(6);
-        int numberOnSecondDice = randomGenerator.nextInt(6);
-        int numberOnThirdDice = randomGenerator.nextInt(6);
-        if (numberOnFirstDice == numberOnSecondDice && numberOnSecondDice == numberOnThirdDice){
-            System.out.println("You have Win!!! you have " + numberOnFirstDice + "on all dices.");
-        }
+        int firstNUmber = randomGenerator.nextInt(100);
+        int secondNumber = randomGenerator.nextInt(100);
+        int thirdNumber = randomGenerator.nextInt(100);
+        System.out.println("First number is: " + firstNUmber + ", second number is: " + secondNumber +
+                ", third number is: " + thirdNumber);
     }
 }
