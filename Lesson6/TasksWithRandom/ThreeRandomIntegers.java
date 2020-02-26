@@ -1,4 +1,4 @@
-package lv.javaguru.JavaGuruQA2.Lesson6;
+package lv.javaguru.JavaGuruQA2.Lesson6.TasksWithRandom;
 
 import java.util.Random;
 
